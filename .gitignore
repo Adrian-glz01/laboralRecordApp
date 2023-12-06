@@ -1,0 +1,29 @@
+# Logs
+labRecApp/frontend/logs
+labRecApp/frontend/*.log
+labRecApp/frontend/npm-debug.log*
+labRecApp/frontend/yarn-debug.log*
+labRecApp/frontend/yarn-error.log*
+labRecApp/frontend/pnpm-debug.log*
+labRecApp/frontend/lerna-debug.log*
+
+labRecApp/backend/node_modules
+labRecApp/frontend/node_modules
+labRecApp/frontend/.DS_Store
+labRecApp/frontend/dist
+labRecApp/frontend/dist-ssr
+labRecApp/frontend/coverage
+labRecApp/frontend/*.local
+
+labRecApp/frontend//cypress/videos/
+labRecApp/frontend//cypress/screenshots/
+
+# Editor directories and files
+labRecApp/frontend/.vscode/*
+labRecApp/frontend/!.vscode/extensions.json
+labRecApp/frontend/.idea
+labRecApp/frontend/*.suo
+labRecApp/frontend/*.ntvs*
+labRecApp/frontend/*.njsproj
+labRecApp/frontend/*.sln
+labRecApp/frontend/*.sw?
