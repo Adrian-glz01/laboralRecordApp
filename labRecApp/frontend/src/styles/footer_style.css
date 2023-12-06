@@ -1,0 +1,19 @@
+.footer_Component {
+    text-align: center;
+    color: #c9c9c9;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.footer_Component a {
+    float: middle;
+    margin: 5px;
+    color: #b28d53;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.footer_Component hr {
+    border-color: #c9c9c9;
+}

@@ -1,0 +1,36 @@
+* {
+    font-family: 'Segoe UI', Tahoma;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#app {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-height: 600px) {
+    footer, header {
+        position: static;
+    }
+}
